@@ -1,0 +1,44 @@
+div.time-picker
+{
+    position: absolute;
+    height: 191px;
+    width: 40.9em; /* needed for IE */
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #aaa;
+    z-index: 99;
+    margin: 0;
+}
+div.time-picker-12hours
+{
+    width: 40.9em; /* needed for IE */
+}
+
+div.time-picker ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.time-picker li
+{
+    cursor: pointer;
+    height: 10px;
+    font: 12px/1 Helvetica, Arial, sans-serif;
+    padding: 4px 3px;
+}
+div.time-picker li.selected
+{
+    background-color: #497eac;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(107, 160, 206)), to(rgb(73, 126, 172)));
+    background-image: -webkit-linear-gradient(top, rgb(107, 160, 206), rgb(73, 126, 172));
+    background-image: -moz-linear-gradient(top, rgb(107, 160, 206), rgb(73, 126, 172));
+    background-image: -o-linear-gradient(top, rgb(107, 160, 206), rgb(73, 126, 172));
+    background-image: -ms-linear-gradient(top, rgb(107, 160, 206), rgb(73, 126, 172));
+    background-image: linear-gradient(top, rgb(107, 160, 206), rgb(73, 126, 172));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#6ba0ce', EndColorStr='#497eac');
+    border-bottom: 1px solid #467cad;
+    border-top: 1px solid #6ba0ce;
+    color: #fff;
+    text-shadow: 0 1px 0 #467cad;
+}

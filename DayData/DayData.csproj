@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71891277-2769-4A27-8591-11F5730C7274}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DayData</RootNamespace>
+    <AssemblyName>DayData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Book Search">
+      <HintPath>..\..\..\Documents\Visual Studio 2012\Projects\Book Search App\Book Search\bin\Debug\Book Search.dll</HintPath>
+    </Reference>
+    <Reference Include="C5, Version=1.1.0.0, Culture=neutral, PublicKeyToken=06a1b38866503b69, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="DateTimeRoutines, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\DateTimeRoutines.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.5.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.5.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.5.4\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PowerschoolParser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\Visual Studio 2012\Projects\PowerschoolParser\PowerschoolParser\bin\Debug\PowerschoolParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=2.0.1.100, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\core\controls\GoogleAnalytics.ascx" />
+    <Content Include="admin\core\features\announcements\default.aspx" />
+    <Content Include="admin\core\features\announcements\delete_page.aspx" />
+    <Content Include="admin\core\features\announcements\editannouncement.aspx" />
+    <Content Include="admin\core\features\announcements\setup.aspx" />
+    <Content Include="admin\core\features\events\default.aspx" />
+    <Content Include="admin\core\features\events\new_event.aspx" />
+    <Content Include="admin\core\features\events\add_filter.aspx" />
+    <Content Include="admin\core\features\grades\default.aspx" />
+    <Content Include="admin\core\features\lunchmenu\default.aspx" />
+    <Content Include="admin\core\settings\default.aspx" />
+    <Content Include="admin\core\settings\plugins.aspx" />
+    <Content Include="admin\default.aspx" />
+    <Content Include="admin\login\default.aspx" />
+    <Content Include="admin\logs.aspx" />
+    <Content Include="admin\pub\alerts\alert.aspx" />
+    <Content Include="admin\pub\json\results.aspx" />
+    <Content Include="admin\core\features\default.aspx" />
+    <Content Include="admin\pub\keepalive\default.aspx" />
+    <Content Include="apple-touch-icon-precomposed.png" />
+    <Content Include="apple-touch-icon-ipad.png" />
+    <Content Include="apple-touch-icon-ipad3.png" />
+    <Content Include="apple-touch-icon-iphone.png" />
+    <Content Include="apple-touch-icon-iphone4.png" />
+    <Content Include="App_Data\Debug.txt" />
+    <Content Include="C5.dll" />
+    <Content Include="Common.Logging.dll" />
+    <Content Include="DateTimeRoutines.dll" />
+    <Content Include="default.aspx" />
+    <Content Include="desktop\122.png" />
+    <Content Include="desktop\18.png" />
+    <Content Include="desktop\about.aspx" />
+    <Content Include="desktop\book.png" />
+    <Content Include="desktop\changelog.aspx" />
+    <Content Include="desktop\default.aspx" />
+    <Content Include="desktop\events.png" />
+    <Content Include="desktop\features\announcements.aspx" />
+    <Content Include="desktop\features\booksearch.aspx" />
+    <Content Include="desktop\features\default.aspx" />
+    <Content Include="desktop\features\events.aspx" />
+    <Content Include="desktop\features\events_more.aspx" />
+    <Content Include="desktop\features\grades.aspx" />
+    <Content Include="desktop\features\lunchmenu.aspx" />
+    <Content Include="desktop\features\scoreboard.aspx" />
+    <Content Include="desktop\grades.png" />
+    <Content Include="desktop\lunch.png" />
+    <Content Include="desktop\redirect.png" />
+    <Content Include="desktop\scoreboard.png" />
+    <Content Include="Global.asax" />
+    <Content Include="HtmlAgilityPack.dll" />
+    <Content Include="mobile\default.aspx" />
+    <Content Include="mobile\features\event_details.aspx" />
+    <Content Include="redirect.aspx" />
+    <Content Include="required\css\desktop_view.css" />
+    <Content Include="required\images\25.png" />
+    <Content Include="required\images\arrow.png" />
+    <Content Include="required\images\arrow_hovered.png" />
+    <Content Include="required\images\hover.gif" />
+    <Content Include="required\images\hover.png" />
+    <Content Include="required\images\left_hovered.png" />
+    <Content Include="required\images\normal.gif" />
+    <Content Include="required\images\normal.png" />
+    <Content Include="required\images\redirect.png" />
+    <Content Include="required\images\events.png" />
+    <Content Include="mobile\features\announcements.aspx" />
+    <Content Include="mobile\features\events.aspx" />
+    <Content Include="mobile\features\lunchmenu.aspx" />
+    <Content Include="Quartz.dll" />
+    <Content Include="required\css\960.css" />
+    <Content Include="required\css\calendar.css" />
+    <Content Include="required\css\checkboxes.css" />
+    <Content Include="required\css\desktop.css" />
+    <Content Include="required\css\fonts.css" />
+    <Content Include="required\css\formalize.css" />
+    <Content Include="required\css\icons.css" />
+    <Content Include="required\css\images\ajax-loader.gif" />
+    <Content Include="required\css\images\help.png" />
+    <Content Include="required\css\images\ibutton-slider-default.png" />
+    <Content Include="required\css\images\ibutton-slider-giva-original.png" />
+    <Content Include="required\css\images\ibutton-slider-giva2.png" />
+    <Content Include="required\css\images\iconready.png" />
+    <Content Include="required\css\images\icons-18-black.png" />
+    <Content Include="required\css\images\icons-18-white.png" />
+    <Content Include="required\css\images\icons-36-black.png" />
+    <Content Include="required\css\images\icons-36-white.png" />
+    <Content Include="required\css\images\important.png" />
+    <Content Include="required\css\images\info.png" />
+    <Content Include="required\css\images\title.gif" />
+    <Content Include="required\css\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="required\css\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="required\css\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="required\css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="required\css\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="required\css\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="required\css\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="required\css\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="required\css\images\ui-icons_222222_256x240.png" />
+    <Content Include="required\css\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="required\css\images\ui-icons_454545_256x240.png" />
+    <Content Include="required\css\images\ui-icons_888888_256x240.png" />
+    <Content Include="required\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="required\css\jquery.alerts.css" />
+    <Content Include="required\css\jquery.ibutton.min.css" />
+    <Content Include="required\css\jquery.mobile.structure-1.1.1.min.css" />
+    <Content Include="required\css\jquery.mobile.theme-1.1.1.min.css" />
+    <Content Include="required\css\jqueryui.css" />
+    <Content Include="required\css\main.css" />
+    <Content Include="required\css\metrotiles.css" />
+    <Content Include="required\css\portrait.css" />
+    <Content Include="required\css\reset.css" />
+    <Content Include="required\css\selectboxes.css" />
+    <Content Include="required\css\sourcerer.css" />
+    <Content Include="required\css\tags.css" />
+    <Content Include="required\css\timePicker.css" />
+    <Content Include="required\css\tipsy.css" />
+    <Content Include="required\css\TJHS.min.css" />
+    <Content Include="required\favicon.ico" />
+    <Content Include="required\fonts\aller_bd-webfont.svg" />
+    <Content Include="required\fonts\aller_bdit-webfont.svg" />
+    <Content Include="required\fonts\aller_it-webfont.svg" />
+    <Content Include="required\fonts\aller_lt-webfont.svg" />
+    <Content Include="required\fonts\aller_ltit-webfont.svg" />
+    <Content Include="required\fonts\aller_rg-webfont.svg" />
+    <Content Include="required\fonts\pictos-web.svg" />
+    <Content Include="required\images\apple-touch-icon-ipad.png" />
+    <Content Include="required\images\apple-touch-icon-ipad3.png" />
+    <Content Include="required\images\apple-touch-icon-iphone.png" />
+    <Content Include="required\images\apple-touch-icon-iphone4.png" />
+    <Content Include="required\images\favicon.png" />
+    <Content Include="required\images\ibutton-slider-default.png" />
+    <Content Include="required\images\ibutton-slider-giva2.png" />
+    <Content Include="required\images\loading.gif" />
+    <Content Include="required\images\selected.gif" />
+    <Content Include="required\images\selected.png" />
+    <Content Include="required\images\small_announcement.png" />
+    <Content Include="required\images\small_events.png" />
+    <Content Include="required\images\small_food.png" />
+    <Content Include="required\img\52.png" />
+    <Content Include="required\img\del_back.png" />
+    <Content Include="required\img\icons\15.png" />
+    <Content Include="required\img\on_bk.png" />
+    <Content Include="required\img\unlocked.png" />
+    <Content Include="required\img\lock.png" />
+    <Content Include="required\img\58.png" />
+    <Content Include="required\img\action_bar_bg.png" />
+    <Content Include="required\img\bg.png" />
+    <Content Include="required\img\buttonblue_bg.png" />
+    <Content Include="required\img\buttongray_bg.png" />
+    <Content Include="required\img\checkbox.png" />
+    <Content Include="required\img\chosen-sprite.png" />
+    <Content Include="required\img\error.png" />
+    <Content Include="required\img\file_bg.png" />
+    <Content Include="required\img\icons.png" />
+    <Content Include="required\img\icons\122.png" />
+    <Content Include="required\img\icons\alert_32.png" />
+    <Content Include="required\img\icons\alert_32_16.png" />
+    <Content Include="required\img\icons\blocked_32.png" />
+    <Content Include="required\img\icons\blocked_32_16.png" />
+    <Content Include="required\img\icons\calendar_32.png" />
+    <Content Include="required\img\icons\calendar_32_16.png" />
+    <Content Include="required\img\icons\cart_32.png" />
+    <Content Include="required\img\icons\cart_32_16.png" />
+    <Content Include="required\img\icons\chart_32.png" />
+    <Content Include="required\img\icons\chart_32_16.png" />
+    <Content Include="required\img\icons\cloud_32.png" />
+    <Content Include="required\img\icons\cloud_32_16.png" />
+    <Content Include="required\img\icons\cog_32.png" />
+    <Content Include="required\img\icons\cog_32_16.png" />
+    <Content Include="required\img\icons\cross_32.png" />
+    <Content Include="required\img\icons\cross_32_16.png" />
+    <Content Include="required\img\icons\dashboard_32.png" />
+    <Content Include="required\img\icons\dashboard_32_16.png" />
+    <Content Include="required\img\icons\delete_32.png" />
+    <Content Include="required\img\icons\delete_32_16.png" />
+    <Content Include="required\img\icons\dots_32.png" />
+    <Content Include="required\img\icons\dots_32_16.png" />
+    <Content Include="required\img\icons\download_32.png" />
+    <Content Include="required\img\icons\download_32_16.png" />
+    <Content Include="required\img\icons\export_32.png" />
+    <Content Include="required\img\icons\export_32_16.png" />
+    <Content Include="required\img\icons\file_32.png" />
+    <Content Include="required\img\icons\file_32_16.png" />
+    <Content Include="required\img\icons\flag_32.png" />
+    <Content Include="required\img\icons\flag_32_16.png" />
+    <Content Include="required\img\icons\folder_32.png" />
+    <Content Include="required\img\icons\folder_32_16.png" />
+    <Content Include="required\img\icons\group_32.png" />
+    <Content Include="required\img\icons\group_32_16.png" />
+    <Content Include="required\img\icons\help_32.png" />
+    <Content Include="required\img\icons\help_32_16.png" />
+    <Content Include="required\img\icons\home_32.png" />
+    <Content Include="required\img\icons\home_32_16.png" />
+    <Content Include="required\img\icons\images_32.png" />
+    <Content Include="required\img\icons\images_32_16.png" />
+    <Content Include="required\img\icons\info_32.png" />
+    <Content Include="required\img\icons\info_32_16.png" />
+    <Content Include="required\img\icons\key_32.png" />
+    <Content Include="required\img\icons\key_32_16.png" />
+    <Content Include="required\img\icons\link_32.png" />
+    <Content Include="required\img\icons\link_32_16.png" />
+    <Content Include="required\img\icons\listicon_32.png" />
+    <Content Include="required\img\icons\listicon_32_16.png" />
+    <Content Include="required\img\icons\lock_32.png" />
+    <Content Include="required\img\icons\lock_32_16.png" />
+    <Content Include="required\img\icons\love_32.png" />
+    <Content Include="required\img\icons\love_32_16.png" />
+    <Content Include="required\img\icons\minus_32.png" />
+    <Content Include="required\img\icons\minus_32_16.png" />
+    <Content Include="required\img\icons\new_32.png" />
+    <Content Include="required\img\icons\new_32_16.png" />
+    <Content Include="required\img\icons\note_32.png" />
+    <Content Include="required\img\icons\note_32_16.png" />
+    <Content Include="required\img\icons\openlock_32.png" />
+    <Content Include="required\img\icons\openlock_32_16.png" />
+    <Content Include="required\img\icons\pencil_32.png" />
+    <Content Include="required\img\icons\pencil_32_16.png" />
+    <Content Include="required\img\icons\pinpoint_32.png" />
+    <Content Include="required\img\icons\pinpoint_32_16.png" />
+    <Content Include="required\img\icons\plus2_32.png" />
+    <Content Include="required\img\icons\plus2_32_16.png" />
+    <Content Include="required\img\icons\plus_32.png" />
+    <Content Include="required\img\icons\plus_32_16.png" />
+    <Content Include="required\img\icons\print_32.png" />
+    <Content Include="required\img\icons\print_32_16.png" />
+    <Content Include="required\img\icons\question_32.png" />
+    <Content Include="required\img\icons\question_32_16.png" />
+    <Content Include="required\img\icons\refresh_32.png" />
+    <Content Include="required\img\icons\refresh_32_16.png" />
+    <Content Include="required\img\icons\search_32.png" />
+    <Content Include="required\img\icons\search_32_16.png" />
+    <Content Include="required\img\icons\shuffle_32.png" />
+    <Content Include="required\img\icons\shuffle_32_16.png" />
+    <Content Include="required\img\icons\sound_32.png" />
+    <Content Include="required\img\icons\sound_32_16.png" />
+    <Content Include="required\img\icons\tags_32.png" />
+    <Content Include="required\img\icons\tags_32_16.png" />
+    <Content Include="required\img\icons\tick2_32.png" />
+    <Content Include="required\img\icons\tick2_32_16.png" />
+    <Content Include="required\img\icons\tick_32.png" />
+    <Content Include="required\img\icons\tick_32_16.png" />
+    <Content Include="required\img\icons\tools_32.png" />
+    <Content Include="required\img\icons\tools_32_16.png" />
+    <Content Include="required\img\icons\trash_32.png" />
+    <Content Include="required\img\icons\trash_32_16.png" />
+    <Content Include="required\img\icons\twitter_32.png" />
+    <Content Include="required\img\icons\twitter_32_16.png" />
+    <Content Include="required\img\icons\user_32.png" />
+    <Content Include="required\img\icons\user_32_16.png" />
+    <Content Include="required\img\icons\windows_32.png" />
+    <Content Include="required\img\icons\windows_32_16.png" />
+    <Content Include="required\img\input_bg.png" />
+    <Content Include="required\img\login_bg.png" />
+    <Content Include="required\img\logo.png" />
+    <Content Include="required\img\nav_bg.png" />
+    <Content Include="required\img\nav_secondary_bg.png" />
+    <Content Include="required\img\notifications_bg.png" />
+    <Content Include="required\img\notification_error.png" />
+    <Content Include="required\img\notification_error_icon.png" />
+    <Content Include="required\img\notification_information.png" />
+    <Content Include="required\img\notification_success.png" />
+    <Content Include="required\img\notification_success_icon.png" />
+    <Content Include="required\img\notification_warning.png" />
+    <Content Include="required\img\notification_warning_icon.png" />
+    <Content Include="required\img\overlay_bg.png" />
+    <Content Include="required\img\radio.png" />
+    <Content Include="required\img\select.png" />
+    <Content Include="required\img\slider_active_bg.png" />
+    <Content Include="required\img\slider_bg.png" />
+    <Content Include="required\img\slider_handle.png" />
+    <Content Include="required\img\slider_vert_active_bg.png" />
+    <Content Include="required\img\slider_vert_bg.png" />
+    <Content Include="required\img\sorting_bg.png" />
+    <Content Include="required\img\tip_bg.png" />
+    <Content Include="required\img\tooltip_bg.png" />
+    <Content Include="required\img\warning.png" />
+    <Content Include="required\js\application.js" />
+    <Content Include="required\js\desktop.js" />
+    <Content Include="required\js\eventmaps.js" />
+    <Content Include="required\js\eventTime.js" />
+    <Content Include="required\js\fix.js" />
+    <Content Include="required\js\formalize.min.js" />
+    <Content Include="required\js\helper.js" />
+    <Content Include="required\js\iframe\default\lbl-blockquote.png" />
+    <Content Include="required\js\iframe\default\lbl-h1.png" />
+    <Content Include="required\js\iframe\default\lbl-h2.png" />
+    <Content Include="required\js\iframe\default\lbl-h3.png" />
+    <Content Include="required\js\iframe\default\lbl-h4.png" />
+    <Content Include="required\js\iframe\default\lbl-h5.png" />
+    <Content Include="required\js\iframe\default\lbl-h6.png" />
+    <Content Include="required\js\iframe\default\lbl-p.png" />
+    <Content Include="required\js\iframe\default\lbl-pre.png" />
+    <Content Include="required\js\iframe\default\wymiframe.css" />
+    <Content Include="required\js\iframe\default\wymiframe.html" />
+    <Content Include="required\js\jquery-vsdoc.js" />
+    <Content Include="required\js\jquery.alerts.js" />
+    <Content Include="required\js\jquery.calendar.js" />
+    <Content Include="required\js\jquery.checkboxes.js" />
+    <Content Include="required\js\jquery.chosen.js" />
+    <Content Include="required\js\jquery.cookies.js" />
+    <Content Include="required\js\jquery.datatables.js" />
+    <Content Include="required\js\jquery.easing.1.3.js" />
+    <Content Include="required\js\jquery.fileinput.js" />
+    <Content Include="required\js\jquery.flot.min.js" />
+    <Content Include="required\js\jquery.highcharts.js" />
+    <Content Include="required\js\jquery.ibutton.min.js" />
+    <Content Include="required\js\jquery.inputtags.min.js" />
+    <Content Include="required\js\jquery.livequery.js" />
+    <Content Include="required\js\jquery.metadata.js" />
+    <Content Include="required\js\jquery.min.js" />
+    <Content Include="required\js\jquery.min_9f1bd1cf.js" />
+    <Content Include="required\js\jquery.msgbox.min.js" />
+    <Content Include="required\js\jquery.pjax.js" />
+    <Content Include="required\js\jquery.selectskin.js" />
+    <Content Include="required\js\jquery.simpleWeather.min.js" />
+    <Content Include="required\js\jquery.sourcerer.js" />
+    <Content Include="required\js\jquery.timePicker.min.js" />
+    <Content Include="required\js\jquery.tipsy.js" />
+    <Content Include="required\js\jquery.validate.js" />
+    <Content Include="required\js\jquery.wymeditor.js" />
+    <Content Include="required\js\jquery.wymeditor.min.js" />
+    <Content Include="required\js\jquery.wymeditor.pack.js" />
+    <Content Include="required\js\jqueryui.min.js" />
+    <Content Include="required\js\jqueryui.min_69572970.js" />
+    <Content Include="required\js\jqueryui.min_b51c6379.js" />
+    <Content Include="required\js\jqueryui.min_d993119d.js" />
+    <Content Include="required\js\jqueryui.min_f31972f3.js" />
+    <Content Include="required\js\lang\bg.js" />
+    <Content Include="required\js\lang\ca.js" />
+    <Content Include="required\js\lang\cs.js" />
+    <Content Include="required\js\lang\cy.js" />
+    <Content Include="required\js\lang\de.js" />
+    <Content Include="required\js\lang\en.js" />
+    <Content Include="required\js\lang\es.js" />
+    <Content Include="required\js\lang\fa.js" />
+    <Content Include="required\js\lang\fi.js" />
+    <Content Include="required\js\lang\fr.js" />
+    <Content Include="required\js\lang\gl.js" />
+    <Content Include="required\js\lang\he.js" />
+    <Content Include="required\js\lang\hr.js" />
+    <Content Include="required\js\lang\hu.js" />
+    <Content Include="required\js\lang\it.js" />
+    <Content Include="required\js\lang\nb.js" />
+    <Content Include="required\js\lang\nl.js" />
+    <Content Include="required\js\lang\nn.js" />
+    <Content Include="required\js\lang\pl.js" />
+    <Content Include="required\js\lang\pt-br.js" />
+    <Content Include="required\js\lang\pt.js" />
+    <Content Include="required\js\lang\ru.js" />
+    <Content Include="required\js\lang\sv.js" />
+    <Content Include="required\js\lang\tr.js" />
+    <Content Include="required\js\lang\zh_cn.js" />
+    <Content Include="required\js\mobilejquery.js" />
+    <Content Include="required\js\mobile.js" />
+    <Content Include="required\js\modal.popup.js" />
+    <Content Include="required\js\plugins\embed\jquery.wymeditor.embed.js" />
+    <Content Include="required\js\plugins\fullscreen\icon_fullscreen.gif" />
+    <Content Include="required\js\plugins\fullscreen\jquery.wymeditor.fullscreen.js" />
+    <Content Include="required\js\plugins\hovertools\jquery.wymeditor.hovertools.js" />
+    <Content Include="required\js\plugins\resizable\jquery.wymeditor.resizable.js" />
+    <Content Include="required\js\plugins\resizable\readme.txt" />
+    <Content Include="required\js\plugins\tidy\jquery.wymeditor.tidy.js" />
+    <Content Include="required\js\plugins\tidy\wand.png" />
+    <Content Include="required\js\skins\compact\icons.png" />
+    <Content Include="required\js\skins\compact\skin.css" />
+    <Content Include="required\js\skins\compact\skin.js" />
+    <Content Include="required\js\skins\default\icons.png" />
+    <Content Include="required\js\skins\default\skin.css" />
+    <Content Include="required\js\skins\default\skin.js" />
+    <Content Include="required\js\skins\minimal\images\bg.header.gif" />
+    <Content Include="required\js\skins\minimal\images\bg.selector.silver.gif" />
+    <Content Include="required\js\skins\minimal\images\bg.wymeditor.png" />
+    <Content Include="required\js\skins\minimal\images\icons.silver.gif" />
+    <Content Include="required\js\skins\minimal\skin.css" />
+    <Content Include="required\js\skins\minimal\skin.js" />
+    <Content Include="required\js\skins\silver\images\bg.header.gif" />
+    <Content Include="required\js\skins\silver\images\bg.selector.silver.gif" />
+    <Content Include="required\js\skins\silver\images\bg.wymeditor.png" />
+    <Content Include="required\js\skins\silver\images\icons.silver.gif" />
+    <Content Include="required\js\skins\silver\skin.css" />
+    <Content Include="required\js\skins\silver\skin.js" />
+    <Content Include="required\js\skins\twopanels\icons.png" />
+    <Content Include="required\js\skins\twopanels\skin.css" />
+    <Content Include="required\js\skins\twopanels\skin.js" />
+    <Content Include="required\js\skins\wymeditor_icon.png" />
+    <Content Include="required\js\tiles.js" />
+    <Content Include="required\images\Left.png" />
+    <Content Include="tv\default.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\core\controls\File.ashx.cs">
+      <DependentUpon>File.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\controls\GoogleAnalytics.ascx.cs">
+      <DependentUpon>GoogleAnalytics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\controls\GoogleAnalytics.ascx.designer.cs">
+      <DependentUpon>GoogleAnalytics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\classes\AnnouncementUpdater.cs" />
+    <Compile Include="admin\core\features\announcements\classes\GoogleDocsHandler.cs" />
+    <Compile Include="admin\core\features\announcements\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\delete_page.aspx.cs">
+      <DependentUpon>delete_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\delete_page.aspx.designer.cs">
+      <DependentUpon>delete_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\editannouncement.aspx.cs">
+      <DependentUpon>editannouncement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\editannouncement.aspx.designer.cs">
+      <DependentUpon>editannouncement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\setup.aspx.cs">
+      <DependentUpon>setup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\announcements\setup.aspx.designer.cs">
+      <DependentUpon>setup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\events\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\events\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\events\handlers\Filter.cs" />
+    <Compile Include="admin\core\features\events\handlers\RSSHelper.cs" />
+    <Compile Include="admin\core\features\events\handlers\Updaters\MissouriRiver.cs" />
+    <Compile Include="admin\core\features\events\new_event.aspx.cs">
+      <DependentUpon>new_event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\events\new_event.aspx.designer.cs">
+      <DependentUpon>new_event.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\events\add_filter.aspx.cs">
+      <DependentUpon>add_filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\events\add_filter.aspx.designer.cs">
+      <DependentUpon>add_filter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\grades\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\grades\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\lunchmenu\classes\CustomLunchDay.cs" />
+    <Compile Include="admin\core\features\lunchmenu\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\lunchmenu\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\settings\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\settings\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\settings\plugins.aspx.cs">
+      <DependentUpon>plugins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\settings\plugins.aspx.designer.cs">
+      <DependentUpon>plugins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\logs.aspx.cs">
+      <DependentUpon>logs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\logs.aspx.designer.cs">
+      <DependentUpon>logs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pub\alerts\alert.aspx.cs">
+      <DependentUpon>alert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\pub\alerts\alert.aspx.designer.cs">
+      <DependentUpon>alert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pub\json\instances\Announcement.cs" />
+    <Compile Include="admin\pub\json\instances\Error.cs" />
+    <Compile Include="admin\pub\json\instances\LunchDay.cs" />
+    <Compile Include="admin\pub\json\results.aspx.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\pub\json\results.aspx.designer.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\core\features\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\core\features\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pub\keepalive\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\pub\keepalive\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="config\ConstantManager.cs" />
+    <Compile Include="config\GlobalDebugger.cs" />
+    <Compile Include="config\handlers\features\powerschool\PowerschoolLoginHandler.cs" />
+    <Compile Include="config\handlers\features\powerschool\PSSession.cs" />
+    <Compile Include="config\handlers\features\scoreboard\Score.cs" />
+    <Compile Include="config\handlers\features\scoreboard\ScoreboardItem.cs" />
+    <Compile Include="config\handlers\features\scoreboard\ScoreboardLoader.cs" />
+    <Compile Include="config\handlers\GlobalHandlers.cs" />
+    <Compile Include="config\handlers\instances\DatabaseHandler.cs" />
+    <Compile Include="config\handlers\instances\GCMHandler.cs" />
+    <Compile Include="config\handlers\instances\item\GlobalInformation.cs" />
+    <Compile Include="config\handlers\instances\item\SessionItem.cs" />
+    <Compile Include="config\handlers\instances\item\Viewer.cs" />
+    <Compile Include="config\handlers\instances\ProtectionHandler.cs" />
+    <Compile Include="config\handlers\instances\SessionHandler.cs" />
+    <Compile Include="config\handlers\instances\SettingHandler.cs" />
+    <Compile Include="config\handlers\instances\UserAgents.cs" />
+    <Compile Include="config\handlers\instances\ViewerHandler.cs" />
+    <Compile Include="config\handlers\TextByIds.cs" />
+    <Compile Include="config\handlers\tiles\class_id\Tile.cs" />
+    <Compile Include="config\handlers\tiles\instances\Announcements.cs" />
+    <Compile Include="config\handlers\tiles\TileManager.cs" />
+    <Compile Include="config\handlers\timers\instances\AnnouncementUpdaterJob.cs" />
+    <Compile Include="config\handlers\timers\instances\EventsUpdaterJob.cs" />
+    <Compile Include="config\handlers\timers\TimerHandlers.cs" />
+    <Compile Include="config\handlers\timers\Updater.cs" />
+    <Compile Include="config\handlers\timers\Updates.cs" />
+    <Compile Include="config\MD5Helper.cs" />
+    <Compile Include="config\StringHelper.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\changelog.aspx.cs">
+      <DependentUpon>changelog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\changelog.aspx.designer.cs">
+      <DependentUpon>changelog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\announcements.aspx.cs">
+      <DependentUpon>announcements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\announcements.aspx.designer.cs">
+      <DependentUpon>announcements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\booksearch.aspx.cs">
+      <DependentUpon>booksearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\booksearch.aspx.designer.cs">
+      <DependentUpon>booksearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\events.aspx.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\events.aspx.designer.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\events_more.aspx.cs">
+      <DependentUpon>events_more.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\events_more.aspx.designer.cs">
+      <DependentUpon>events_more.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\grades.aspx.cs">
+      <DependentUpon>grades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\grades.aspx.designer.cs">
+      <DependentUpon>grades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\lunchmenu.aspx.cs">
+      <DependentUpon>lunchmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\lunchmenu.aspx.designer.cs">
+      <DependentUpon>lunchmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="desktop\features\scoreboard.aspx.cs">
+      <DependentUpon>scoreboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="desktop\features\scoreboard.aspx.designer.cs">
+      <DependentUpon>scoreboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="mobile\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobile\features\announcements.aspx.cs">
+      <DependentUpon>announcements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile\features\announcements.aspx.designer.cs">
+      <DependentUpon>announcements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobile\features\events.aspx.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile\features\events.aspx.designer.cs">
+      <DependentUpon>events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobile\features\event_details.aspx.cs">
+      <DependentUpon>event_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile\features\event_details.aspx.designer.cs">
+      <DependentUpon>event_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobile\features\lunchmenu.aspx.cs">
+      <DependentUpon>lunchmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobile\features\lunchmenu.aspx.designer.cs">
+      <DependentUpon>lunchmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="redirect.aspx.cs">
+      <DependentUpon>redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="redirect.aspx.designer.cs">
+      <DependentUpon>redirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="required\json\EventJson.ashx.cs">
+      <DependentUpon>EventJson.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="required\json\eventjson.cs" />
+    <Compile Include="tv\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tv\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tablet\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\pub\json\instances\Event.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\core\controls\File.ashx" />
+    <None Include="Properties\PublishProfiles\DayData.pubxml" />
+    <None Include="required\fonts\aller_bd-webfont.eot" />
+    <None Include="required\fonts\aller_bd-webfont.woff" />
+    <None Include="required\fonts\aller_bd-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\aller_bdit-webfont.eot" />
+    <None Include="required\fonts\aller_bdit-webfont.woff" />
+    <None Include="required\fonts\aller_bdit-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\aller_it-webfont.eot" />
+    <None Include="required\fonts\aller_it-webfont.woff" />
+    <None Include="required\fonts\aller_it-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\aller_lt-webfont.eot" />
+    <None Include="required\fonts\aller_lt-webfont.woff" />
+    <None Include="required\fonts\aller_lt-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\aller_ltit-webfont.eot" />
+    <None Include="required\fonts\aller_ltit-webfont.woff" />
+    <None Include="required\fonts\aller_ltit-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\aller_rg-webfont.eot" />
+    <None Include="required\fonts\aller_rg-webfont.woff" />
+    <None Include="required\fonts\aller_rg-webfont_2d2816fe.eot" />
+    <None Include="required\fonts\pictos-web.eot" />
+    <None Include="required\fonts\pictos-web.ttf" />
+    <None Include="required\fonts\pictos-web.woff" />
+    <Content Include="required\json\EventJson.ashx" />
+    <None Include="required\js\plugins\tidy\README" />
+    <None Include="required\js\plugins\tidy\tidy.php" />
+    <None Include="required\js\skins\silver\COPYING" />
+    <None Include="required\js\skins\silver\README" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3623</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

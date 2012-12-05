@@ -1,0 +1,757 @@
+[10/19/2012 4:18:39 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 4:18:41 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 4:18:41 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 4:18:41 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:11:13 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:11:14 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:11:14 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:11:14 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:18:12 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:18:12 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:18:13 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:18:13 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:19:59 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:20:00 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:20:00 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:20:00 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:25:36 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:25:36 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:25:37 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:25:37 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:41:01 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/19/2012 7:41:05 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:41:05 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:41:06 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:41:06 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:43:32 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:43:33 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:43:33 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:43:33 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:44:10 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:44:11 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:44:11 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:44:11 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:44:29 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:44:30 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:44:31 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:44:31 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 7:45:59 PM]:[DAYDATA]: getting this far loadDate:October 22 2012
+[10/19/2012 7:53:40 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 7:53:40 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 7:53:41 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 7:53:41 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 8:00:02 PM]:[DAYDATA]: Updated announcements at: 10/19/2012 8:00:02 PM
+[10/19/2012 8:00:02 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/19/2012 9:00:00 PM
+[10/19/2012 8:07:58 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 8:07:58 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 8:07:59 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 8:07:59 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 8:15:17 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 8:15:18 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 8:15:18 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 8:15:18 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 8:30:00 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/19/2012 8:30:00 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/19/2012 8:30:05 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/19/2012 8:30:05 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/19/2012 8:54:54 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.DayDataEnabled() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 622
+[10/19/2012 9:01:58 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 9:01:59 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 9:01:59 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 9:01:59 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 9:20:51 PM]:[DAYDATA]: Started Scheduler Factory
+[10/19/2012 9:20:51 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/19/2012 9:20:52 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/20/2012 8:00:00 AM
+[10/19/2012 9:20:52 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/19/2012 9:32:45 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/21/2012 8:44:39 PM]:[DAYDATA]: Started Scheduler Factory
+[10/21/2012 8:44:43 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/21/2012 8:44:44 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/22/2012 8:00:00 AM
+[10/21/2012 8:44:44 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/21/2012 8:44:55 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/21/2012 8:44:55 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/21/2012 9:29:07 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.DayDataEnabled() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 622
+[10/21/2012 10:10:54 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/22/2012 8:12:13 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:12:16 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:12:16 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:12:16 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:12:19 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:12:19 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:12:56 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:12:59 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:12:59 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:12:59 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:14:43 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:14:44 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:14:44 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:14:44 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:15:45 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:15:47 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:15:47 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:15:47 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:25:55 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/22/2012 8:25:57 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:26:01 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:26:01 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:26:01 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:27:20 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:27:24 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:27:24 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:27:24 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:27:25 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:27:25 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:32:09 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:32:10 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:32:11 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:32:11 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:33:45 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:33:46 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:33:46 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:33:47 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:33:47 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:33:47 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:37:26 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:37:30 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:37:30 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:37:30 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:37:31 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:37:31 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/22/2012 8:43:32 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:43:33 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:43:33 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:43:34 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 8:47:48 PM]:[DAYDATA]: Started Scheduler Factory
+[10/22/2012 8:47:49 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/22/2012 8:47:49 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/23/2012 8:00:00 AM
+[10/22/2012 8:47:49 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/22/2012 9:00:00 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.deleteAnnouncementsOnUpdate() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 575
+[10/22/2012 9:00:00 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/22/2012 10:00:00 PM
+[10/23/2012 5:09:27 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:09:28 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:09:28 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:09:28 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 5:19:08 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:19:09 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:19:09 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:19:09 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 5:25:08 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:25:09 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:25:09 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:25:09 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 5:34:21 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:34:22 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:34:22 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:34:22 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 5:47:33 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/23/2012 5:47:36 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:47:37 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:47:37 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:47:37 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 5:58:41 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/23/2012 5:58:44 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 5:58:45 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 5:58:45 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 5:58:45 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:00:02 PM]:[DAYDATA]: Updated announcements at: 10/23/2012 6:00:02 PM
+[10/23/2012 6:00:02 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/23/2012 7:00:00 PM
+[10/23/2012 6:01:25 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:01:26 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:01:26 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:01:26 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:15:26 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[10/23/2012 6:15:30 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:15:30 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:15:31 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:15:31 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:33:05 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:33:06 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:33:06 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:33:06 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:40:43 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:40:44 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:40:44 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:40:44 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:40:44 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:42:17 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:42:17 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:42:18 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:42:18 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:42:18 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:42:30 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:42:59 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:43:00 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:43:00 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:43:00 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:43:00 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:43:11 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:44:16 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:44:16 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:44:17 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:44:17 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:44:17 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:44:32 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:44:32 PM]:[DAYDATA]: Student is not null
+[10/23/2012 6:45:29 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:45:29 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:45:30 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:45:30 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:45:30 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:45:42 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:45:42 PM]:[DAYDATA]: Student is not null
+[10/23/2012 6:49:05 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:49:06 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:49:06 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:49:06 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:49:06 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:49:17 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:49:17 PM]:[DAYDATA]: Student is not null
+[10/23/2012 6:51:23 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 6:51:24 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 6:51:25 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 6:51:25 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 6:51:25 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 6:51:34 PM]:[DAYDATA]: class is not null
+[10/23/2012 6:51:34 PM]:[DAYDATA]: Student is not null
+[10/23/2012 6:51:34 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:00:02 PM]:[DAYDATA]: Updated announcements at: 10/23/2012 7:00:02 PM
+[10/23/2012 7:00:02 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/23/2012 8:00:00 PM
+[10/23/2012 7:00:11 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:00:12 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:00:12 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:00:12 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:00:12 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:00:46 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:00:46 PM]:[DAYDATA]: Student is not null
+[10/23/2012 7:00:46 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:01:12 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:01:12 PM]:[DAYDATA]: Student is not null
+[10/23/2012 7:01:15 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:01:15 PM]:[DAYDATA]: Student is not null
+[10/23/2012 7:01:15 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:01:21 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:06:46 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:06:47 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:06:47 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:06:48 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:06:48 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:06:58 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:06:58 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:07:59 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:08:00 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:08:00 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:08:01 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:08:01 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:08:37 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:08:38 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:08:38 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:08:39 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:08:39 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:09:01 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:09:01 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:12:37 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:12:38 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:12:39 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:12:39 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:12:39 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:13:00 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:13:00 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:14:17 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:14:17 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:14:22 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:14:22 PM]:[DAYDATA]: Class found: IJAG 11-12 A
+[10/23/2012 7:16:06 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:16:06 PM]:[DAYDATA]: Class found: IJAG 11-12 A
+[10/23/2012 7:17:49 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:17:50 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:17:50 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:17:50 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:17:50 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:18:02 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:02 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:18:04 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:04 PM]:[DAYDATA]: Class found: IJAG 11-12 A
+[10/23/2012 7:18:07 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:07 PM]:[DAYDATA]: Class found: TJ Reads
+[10/23/2012 7:18:09 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:09 PM]:[DAYDATA]: Class found: Digital Photo A TC
+[10/23/2012 7:18:13 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:13 PM]:[DAYDATA]: Class found: Tech Aide
+[10/23/2012 7:18:15 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:15 PM]:[DAYDATA]: Class found: PE
+[10/23/2012 7:18:19 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:19 PM]:[DAYDATA]: Class found: College Bound Club
+[10/23/2012 7:18:22 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:18:22 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:19:05 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:19:06 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:19:07 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:19:07 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:19:07 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:24:13 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:24:14 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:24:15 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:24:15 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:24:15 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:29:35 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:29:35 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:29:36 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:29:36 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:29:36 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:30:26 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:30:27 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:30:27 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:30:27 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:30:27 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:31:42 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:31:43 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:31:43 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:31:44 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:31:44 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:32:08 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:32:08 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:38:30 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:38:30 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:38:31 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:38:31 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:38:31 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:45:59 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:46:00 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:46:00 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:46:00 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:46:00 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:46:26 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:46:26 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:50:14 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:50:15 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:50:15 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:50:16 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:50:16 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:50:40 PM]:[DAYDATA]: class is not null
+[10/23/2012 7:50:40 PM]:[DAYDATA]: Class found: Algebra 2 A
+[10/23/2012 7:52:35 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:52:36 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:52:36 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:52:36 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:52:36 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:52:48 PM]:[DAYDATA]: Removed
+[10/23/2012 7:53:17 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:53:18 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:53:18 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:53:18 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:53:18 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:53:28 PM]:[DAYDATA]: Removed
+[10/23/2012 7:53:40 PM]:[DAYDATA]: Removed
+[10/23/2012 7:54:45 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:54:46 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:54:47 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:54:47 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:54:47 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:54:47 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/23/2012 7:54:47 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4
+[10/23/2012 7:55:20 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:55:21 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:55:22 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:55:22 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:55:22 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:55:35 PM]:[DAYDATA]: Removed
+[10/23/2012 7:57:38 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:57:38 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:57:39 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:57:39 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:57:39 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 7:57:50 PM]:[DAYDATA]: Removed
+[10/23/2012 7:58:08 PM]:[DAYDATA]: Removed
+[10/23/2012 7:59:55 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 7:59:56 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 7:59:56 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 7:59:56 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 7:59:56 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 8:00:03 PM]:[DAYDATA]: Updated announcements at: 10/23/2012 8:00:03 PM
+[10/23/2012 8:00:03 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/23/2012 9:00:00 PM
+[10/23/2012 8:00:09 PM]:[DAYDATA]: Removed
+[10/23/2012 8:02:12 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 8:02:13 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 8:02:13 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 8:02:14 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 8:02:14 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 8:02:24 PM]:[DAYDATA]: class is not null
+[10/23/2012 8:02:24 PM]:[DAYDATA]: Class found: IJAG 11-12 A
+[10/23/2012 8:03:02 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 8:03:03 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 8:03:03 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 8:03:03 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 8:03:03 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 8:21:18 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 8:21:19 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 8:21:19 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 8:21:19 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 8:21:19 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 8:40:35 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase()
+[10/23/2012 8:40:39 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 8:40:40 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 8:40:40 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 8:40:40 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 8:40:40 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 8:43:30 PM]:[DAYDATA]: Started Scheduler Factory
+[10/23/2012 8:43:31 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/23/2012 8:43:32 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/24/2012 8:00:00 AM
+[10/23/2012 8:43:32 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/23/2012 8:43:32 PM]:[DAYDATA]: Created powerschool session handlers
+[10/23/2012 9:00:00 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.deleteAnnouncementsOnUpdate() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 575
+[10/23/2012 9:00:00 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/23/2012 10:00:00 PM
+[10/24/2012 6:11:40 PM]:[DAYDATA]: Started Scheduler Factory
+[10/24/2012 6:11:41 PM]:[DAYDATA]: MySQL Connected Successfully
+[10/24/2012 6:11:42 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 10/25/2012 8:00:00 AM
+[10/24/2012 6:11:42 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[10/24/2012 6:11:42 PM]:[DAYDATA]: Created powerschool session handlers
+[10/24/2012 7:00:00 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.deleteAnnouncementsOnUpdate() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 575
+[10/24/2012 7:00:00 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 10/24/2012 8:00:00 PM
+[11/1/2012 8:07:48 PM]:[DAYDATA]: Started Scheduler Factory
+[11/1/2012 8:07:50 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/1/2012 8:07:50 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/2/2012 8:00:00 AM
+[11/1/2012 8:07:51 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/1/2012 8:07:51 PM]:[DAYDATA]: Created powerschool session handlers
+[11/1/2012 8:08:10 PM]:[DAYDATA]: getting this far loadDate:November 23 2012
+[11/1/2012 8:17:26 PM]:[DAYDATA]: Started Scheduler Factory
+[11/1/2012 8:17:27 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/1/2012 8:17:27 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/2/2012 8:00:00 AM
+[11/1/2012 8:17:28 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/1/2012 8:17:28 PM]:[DAYDATA]: Created powerschool session handlers
+[11/1/2012 8:34:25 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at DayData.config.handlers.instances.DatabaseHandler.removeAllSessionsFromDatabase() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 853
+[11/7/2012 12:44:51 PM]:[DAYDATA]: Started Scheduler Factory
+[11/9/2012 1:04:16 PM]:[DAYDATA]: Started Scheduler Factory
+[11/9/2012 1:04:18 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/9/2012 1:04:18 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/10/2012 8:00:00 AM
+[11/9/2012 1:04:18 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/9/2012 1:04:18 PM]:[DAYDATA]: Created powerschool session handlers
+[11/9/2012 2:00:00 PM]:[DAYDATA]: MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at MySql.Data.Common.MyNetworkStream.HandleOrRethrowException(Exception e)
+   at MySql.Data.Common.MyNetworkStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.TimedStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacket(MySqlPacket packet)
+   at MySql.Data.MySqlClient.NativeDriver.ExecutePacket(MySqlPacket packetToExecute)
+   at MySql.Data.MySqlClient.NativeDriver.SendQuery(MySqlPacket queryPacket)
+   at MySql.Data.MySqlClient.Driver.SendQuery(MySqlPacket p)
+   at MySql.Data.MySqlClient.Statement.ExecuteNext()
+   at MySql.Data.MySqlClient.PreparableStatement.ExecuteNext()
+   at MySql.Data.MySqlClient.Statement.Execute()
+   at MySql.Data.MySqlClient.PreparableStatement.Execute()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at DayData.config.handlers.instances.DatabaseHandler.deleteAnnouncementsOnUpdate() in c:\Users\Anthony\Desktop\DayData\DayData\config\handlers\instances\DatabaseHandler.cs:line 575
+[11/9/2012 2:00:00 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 11/9/2012 3:00:00 PM
+[11/9/2012 3:00:04 PM]:[DAYDATA]: Executing Announcement Updater Job: Next: 11/9/2012 4:00:00 PM
+[11/12/2012 10:43:03 AM]:[DAYDATA]: Started Scheduler Factory
+[11/12/2012 10:43:04 AM]:[DAYDATA]: MySQL Connected Successfully
+[11/12/2012 10:43:05 AM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/13/2012 8:00:00 AM
+[11/12/2012 10:43:05 AM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/12/2012 10:43:05 AM]:[DAYDATA]: Created powerschool session handlers
+[11/23/2012 9:12:35 PM]:[DAYDATA]: Started Scheduler Factory
+[11/23/2012 9:12:39 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/23/2012 9:12:40 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/24/2012 8:00:00 AM
+[11/23/2012 9:12:40 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/23/2012 9:12:40 PM]:[DAYDATA]: Created powerschool session handlers
+[11/23/2012 9:13:43 PM]:[DAYDATA]: Started Scheduler Factory
+[11/23/2012 9:13:44 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/23/2012 9:13:44 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/24/2012 8:00:00 AM
+[11/23/2012 9:13:44 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/23/2012 9:13:44 PM]:[DAYDATA]: Created powerschool session handlers
+[11/23/2012 9:15:10 PM]:[DAYDATA]: Started Scheduler Factory
+[11/23/2012 9:15:11 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/23/2012 9:15:11 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/24/2012 8:00:00 AM
+[11/23/2012 9:15:11 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/23/2012 9:15:11 PM]:[DAYDATA]: Created powerschool session handlers
+[11/26/2012 9:13:22 PM]:[DAYDATA]: Started Scheduler Factory
+[11/26/2012 9:13:23 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/26/2012 9:13:23 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/27/2012 8:00:00 AM
+[11/26/2012 9:13:23 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/26/2012 9:13:23 PM]:[DAYDATA]: Created powerschool session handlers
+[11/26/2012 9:21:25 PM]:[DAYDATA]: Started Scheduler Factory
+[11/26/2012 9:21:26 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/26/2012 9:21:26 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/27/2012 8:00:00 AM
+[11/26/2012 9:21:27 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/26/2012 9:21:27 PM]:[DAYDATA]: Created powerschool session handlers
+[11/26/2012 9:21:28 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+[11/26/2012 9:21:28 PM]:[DAYDATA]: user agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+[11/26/2012 9:21:40 PM]:[DAYDATA]: class is not null
+[11/26/2012 9:28:24 PM]:[DAYDATA]: Started Scheduler Factory
+[11/26/2012 9:28:25 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/26/2012 9:28:25 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/27/2012 8:00:00 AM
+[11/26/2012 9:28:25 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/26/2012 9:28:25 PM]:[DAYDATA]: Created powerschool session handlers
+[11/26/2012 10:13:08 PM]:[DAYDATA]: Started Scheduler Factory
+[11/26/2012 10:13:09 PM]:[DAYDATA]: MySQL Connected Successfully
+[11/26/2012 10:13:10 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 11/27/2012 8:00:00 AM
+[11/26/2012 10:13:10 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[11/26/2012 10:13:10 PM]:[DAYDATA]: Created powerschool session handlers
+[12/1/2012 9:44:38 PM]:[DAYDATA]: Started Scheduler Factory
+[12/1/2012 9:44:39 PM]:[DAYDATA]: MySQL Connected Successfully
+[12/1/2012 9:44:39 PM]:[DAYDATA]: Events trigger and job setup. Next fire is at: 12/2/2012 8:00:00 AM
+[12/1/2012 9:44:40 PM]:[DAYDATA]: [TileManager]: Total Tiles Loaded: 7
+[12/1/2012 9:44:40 PM]:[DAYDATA]: Created powerschool session handlers

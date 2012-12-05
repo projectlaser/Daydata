@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="results.aspx.cs" Inherits="DayData.admin.pub.json.results" %>
